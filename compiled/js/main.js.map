@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.js","sourcesContent":["jQuery(document).ready(function($){\n\t$( '#dl-menu' ).dlmenu({\n\t\tanimationClasses : { classin : 'dl-animate-in-4', classout : 'dl-animate-out-4' },\n\t\tbackLabel:'Atras'\n\t});\n});\n"],"sourceRoot":"/source/"}
