@@ -1,2 +1,41 @@
+.tparrows
+	&.tp-rightarrow
+		&:before
+			content: 'SIGUIENTE'
+			padding-left: 3em
+	&:hover
+		&:before
+			color: #79c901
+			border-bottom: 1px solid #79c901 !important
+			text-shadow: rgb(37, 62, 0) 0px 0px 5px
+	&.tp-leftarrow
+		&:before
+			content: 'ANTERIOR'
+			padding-right: 3em
+.uranus
+	&.tparrows
+		width: auto !important
+		&:before
+			font-size: 1rem !important
+			border-bottom: 1px solid white
+			height: auto !important
+			line-height: normal !important
+			width: auto !important
+
+
 .contenedorInicio
 	position relative
+.headerIndex
+		display: flex
+		width: 100%
+		align-items: center
+		justify-content: space-between
+		position absolute
+		z-index 1000
+
+@media(max-width:768px){
+	.headerIndex{
+		flex-direction column
+	}
+}
+
