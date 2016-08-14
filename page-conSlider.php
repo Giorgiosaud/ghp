@@ -39,7 +39,7 @@ get_header(); ?>
 						<div class="carousel-inner" role="listbox">
 							<?php foreach( $images as $image=>$index ):?>
 							<div class="carousel-item active">
-								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" alt="<?php echo $image['alt']; ?>">
+								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" alt="<?php echo $image['alt']; ?>	">
 							</div>
 							<?php endforeach; ?>
 
@@ -53,14 +53,7 @@ get_header(); ?>
 							<span class="sr-only">Next</span>
 						</a>
 					</div>
-
-
-
-
-
-
-
-
+				<?php endif;?>
 				</div>
 			</div>
 		</div>
