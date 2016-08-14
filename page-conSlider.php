@@ -32,12 +32,12 @@ get_header(); ?>
 
 					<div id="Galeria" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
-							<?php foreach( $images as $image=>$index ):?>
+							<?php foreach( $images as $index=>$image ):?>
 								<li data-target="#Galeria" data-slide-to="<?= $index?>" class="<?php if($index==0){echo 'active';}?>"></li>
 							<?php endforeach; ?>
 						</ol>
 						<div class="carousel-inner" role="listbox">
-							<?php foreach( $images as $image=>$index ):?>
+							<?php foreach( $images as $index=>$image ):?>
 							<div class="carousel-item active">
 								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" alt="<?php echo $image['alt']; ?>	">
 							</div>
