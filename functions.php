@@ -6,18 +6,14 @@ require_once 'custom-taxonomies/all.php';
 require_once 'customizerOptions.php';
 use jorgelsaud\ZonaproCorpTheme\Styles;
 new Styles();
-add_filter('acf/settings/save_json', function() {
-	return get_stylesheet_directory() . '/fields';
-});
+add_filter('acf/settings/save_json', 'my_acf_json_save_point');
+function my_acf_json_save_point( $path ) {
+    $path = get_stylesheet_directory() . '/customFields';
+    return $path;
+}
 
 add_filter('acf/settings/load_json', function($paths) {
-	$paths = array(get_template_directory() . '/fields');
-
-	if(is_child_theme())
-	{
-		$paths[] = get_stylesheet_directory() . '/fields';
-	}
-
+	$paths = array(get_template_directory() . '/customFields');
 	return $paths;
 });
 // Estilo Admin Site
@@ -37,7 +33,6 @@ function adminStyleAndScripts(){
 add_action('admin_head', 'adminStyleAndScripts');
 
 
-add_filter('option_blogname', 'local_blogname');
 
 
 if ( ! function_exists( 'zonaproCorpTheme_setup' ) ) :
@@ -51,6 +46,7 @@ if ( ! function_exists( 'zonaproCorpTheme_setup' ) ) :
 		add_theme_support( 'custom-background' ,$defaults);
 		add_theme_support('post-thumbnails');
 		add_image_size('imagen_interna',460,300,true);
+		add_image_size('colores',110,110,true);
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 		show_admin_bar( false);

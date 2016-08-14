@@ -13,7 +13,7 @@ class Ventanas{
 		'name_admin_bar'        => __( 'Ventanas', 'ghp' ),
 		'archives'              => __( 'Archivo de Ventanas', 'ghp' ),
 		'parent_item_colon'     => __( 'Ventana Superior', 'ghp' ),
-		'all_items'             => __( 'Todas Las Informaciónes Corporativa', 'ghp' ),
+		'all_items'             => __( 'Todas Las Ventanas', 'ghp' ),
 		'add_new_item'          => __( 'Añadir Nuevo Ventana', 'ghp' ),
 		'add_new'               => __( 'Nuevo Ventana', 'ghp' ),
 		'new_item'              => __( 'Nuevo Ventana', 'ghp' ),

@@ -1,5 +1,7 @@
 <?php 
-
+/*
+ * Template name: Pagina Con Slider
+ * */
 get_header(); ?>
 
 <div class="backgroundPicture" <?php if(has_post_thumbnail()):?>
@@ -24,42 +26,8 @@ get_header(); ?>
 						<img src="<?php the_field('imagen_interna')?>" class="img-fluid" alt="Imagen Interna">
 					</div>
 					
-					<div class="contenidoInterno__Colores">
-						<?php
-						if( have_rows('colores') ):
-							while ( have_rows('colores') ) : the_row();?>
-						<div class="contenedorInterno__Color">
-							<div class="contenedorInterno__Color__Muestra">
-								<img src="<?php the_sub_field('color')?>" class="img-fluid" alt="color">
-							</div>
-							<div class="contenedorInterno__Color__Nombre">
-								<?php the_sub_field('nombre')?>
-							</div>
-						</div>
-						<?php
-						endwhile;
-						endif;
-
-						?>
-					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<!-- Bottom Nav-->
-			<?php $prev_post = get_previous_post(); ?>
-			<div class="post-prev indicators col-xs-6">
-				<?php if ( !empty( $prev_post ) ) : ?>  
-					<a href="<?php echo get_permalink( $prev_post->ID ); ?>"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> <?php _e('Anterior','ghp')?></a>
-				<?php endif; ?>
-			</div>
-			<?php $next_post = get_next_post(); ?>
-			<div class="post-next indicators col-xs-6">
-				<?php if ( !empty( $next_post ) ) : ?>  
-					<a  href="<?php echo get_permalink( $next_post->ID ); ?>"> <?php _e('Siguiente','ghp')?> <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<?php endif; ?>
-			</div>
-			<!--/Bottom Nav-->
 		</div>
 	</div>
 </article>

@@ -1,0 +1,67 @@
+{
+    "key": "group_57a9787d772f2",
+    "title": "Campos Especiales Generales",
+    "fields": [
+        {
+            "key": "field_57a9795aa172d",
+            "label": "Imagen Interna",
+            "name": "imagen_interna",
+            "type": "image_crop",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "crop_type": "hard",
+            "target_size": "imagen_interna",
+            "width": "",
+            "height": "",
+            "preview_size": "imagen_interna",
+            "force_crop": "yes",
+            "save_in_media_library": "yes",
+            "retina_mode": "yes",
+            "save_format": "url",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "ventanas"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "jardinesverticales"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1471026962
+}

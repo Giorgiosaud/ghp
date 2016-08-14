@@ -27,6 +27,13 @@ ga('send', 'pageview');
 
 <body <?php body_class(); ?>>
 
-<?php 
-get_template_part('menu','principal');
-?>
+<div class="headerInner">
+	<div class="Logo">
+		<?php the_custom_logo()?>
+	</div>
+	<div id="dl-menu" class="dl-menuwrapper">
+		<button class="dl-trigger">Open Menu</button>
+		<?php callMenu('main-menu')?>
+	</div><!-- /dl-menuwrapper -->
+
+</div>
