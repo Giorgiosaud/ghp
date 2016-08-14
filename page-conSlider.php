@@ -21,11 +21,46 @@ get_header(); ?>
 				<?php the_content()?>
 			</div>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Foto">
-				<div class="contenidoInterno__ImagenyColores">
-					<div class="contenidoInterno__Imagen">
-						<?php the_field('slider')?>
+				<div class="contenidoInterno__Galeria">
+					<?php 
+
+					$images = get_field('gallery');
+					$iterator=0;
+					if( $images ): ?>
+
+
+
+					<div id="Galeria" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<?php foreach( $images as $image=>$index ):?>
+								<li data-target="#Galeria" data-slide-to="<?= $index?>" class="<?php if($index==0){echo 'active';}?>"></li>
+							<?php endforeach; ?>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<?php foreach( $images as $image=>$index ):?>
+							<div class="carousel-item active">
+								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" alt="<?php echo $image['alt']; ?>">
+							</div>
+							<?php endforeach; ?>
+
+						</div>
+						<a class="left carousel-control" href="#Galeria" role="button" data-slide="prev">
+							<span class="icon-prev" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#Galeria" role="button" data-slide="next">
+							<span class="icon-next" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
-					
+
+
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
