@@ -38,7 +38,7 @@ get_header(); ?>
 						</ol>
 						<div class="carousel-inner" role="listbox">
 							<?php foreach( $images as $index=>$image ):?>
-							<div class="carousel-item <?php if($index==0){echo 'active';}">
+							<div class="carousel-item <?php if($index==0){echo 'active';}?>">
 								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" alt="<?php echo $image['alt']; ?>	">
 							</div>
 							<?php endforeach; ?>
