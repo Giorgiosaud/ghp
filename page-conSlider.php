@@ -24,7 +24,7 @@ get_header(); ?>
 				<div class="contenidoInterno__Galeria">
 					<?php 
 
-					$images = get_field('gallery');
+					$images = get_field('slider');
 					$iterator=0;
 					if( $images ): ?>
 
