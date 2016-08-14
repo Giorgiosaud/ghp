@@ -3,6 +3,17 @@ jQuery(document).ready(function($){
 		animationClasses : { classin : 'dl-animate-in-4', classout : 'dl-animate-out-4' },
 		backLabel:'Atras'
 	});
-    $('.fancybox').fancybox();
+	$('.fancybox').fancybox({
+		helpers:  {
+			title : {
+				type : 'inside'
+			},
+			overlay : {
+				css : {
+					'background' : 'rgba(255,255,255,0.5)'
+				}
+			}
+		}
+	});
 	
 });
