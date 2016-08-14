@@ -28,7 +28,7 @@ class Styles
 			  ) );
 		wp_enqueue_script('assetsJs');
 		 // die(var_dump($deps));
-		wp_register_script('mainJs',get_template_directory_uri().'/compiled/js/main.js');
+		wp_register_script('mainJs',get_template_directory_uri().'/compiled/js/main.js',array('assetsJs'),true);
 			wp_enqueue_script('mainJs');
 		if(get_field('api_googlemaps', 'options')){
 			$google_key=get_field('api_googlemaps', 'options');
