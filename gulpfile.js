@@ -25,7 +25,7 @@ elixir.config.publicPath='compiled';
  	.stylus('app.styl','resources/assets/css')
 	.styles(['sass.css'],'compiled/css/assets.css')
 	.styles(['app.css'],'compiled/css/main.css')
- 	.scripts(['jquery/dist/jquery.js','tether/dist/js/tether.js','bootstrap/dist/js/bootstrap.js','Responsive-Multi-Level-Menu-Plugin-Dlmenu/js/modernizr.custom.js','Responsive-Multi-Level-Menu-Plugin-Dlmenu/js/jquery.dlmenu.js'],'compiled/js/assets.js','bower_components/')
-	.scripts(['main.js'],'compiled/js/main.js')
+ 	.scripts(['jquery/dist/jquery.js','tether/dist/js/tether.js','bootstrap/dist/js/bootstrap.js','Responsive-Multi-Level-Menu-Plugin-Dlmenu/js/modernizr.custom.js','Responsive-Multi-Level-Menu-Plugin-Dlmenu/js/jquery.dlmenu.js','fancybox-scss/source/jquery.fancybox.pack.js'],'compiled/js/assets.js','bower_components/')
+	.scripts(['main.js'],'compiled/js/main.js');
  });
 

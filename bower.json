@@ -27,6 +27,7 @@
     "sweetalert": "^1.1.3",
     "d3-ease": "^1.0.1",
     "segment": "https://github.com/lmgonzalves/segment.git#^1.0.0",
-    "Responsive-Multi-Level-Menu-Plugin-Dlmenu": "*"
+    "Responsive-Multi-Level-Menu-Plugin-Dlmenu": "*",
+    "fancybox-scss": "^2.2.0"
   }
 }
