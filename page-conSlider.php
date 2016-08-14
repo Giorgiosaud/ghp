@@ -23,7 +23,7 @@ get_header(); ?>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Foto">
 				<div class="contenidoInterno__ImagenyColores">
 					<div class="contenidoInterno__Imagen">
-						<img src="<?php the_field('imagen_interna')?>" class="img-fluid" alt="Imagen Interna">
+						<?php the_field('slider')?>
 					</div>
 					
 				</div>
