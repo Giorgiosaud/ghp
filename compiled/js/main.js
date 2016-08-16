@@ -26,7 +26,8 @@ jQuery(document).ready(function($){
 	});
 	function mostrarFormulario(cli,prod){
 		$('.Formulario:not(.noShow)').addClass('noShow');
-		var clase='Formulario'+cli+prod;
+		var clase='.Formulario'+cli+prod;
+		$(clase).removeClass('noShow').animateCss('customFadeIn');
 		console.log(clase);
 	}
 	$('input[name|="Producto"]').change(function() {
