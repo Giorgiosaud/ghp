@@ -748,5 +748,8 @@ a:hover {
   color: #7ea10f;
   transition: all 1s;
 }
+.customFadeIn {
+  animated-name: fade-in-down-big;
+}
 
 /*# sourceMappingURL=app.css.map */
