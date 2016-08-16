@@ -723,6 +723,7 @@ a:hover {
   background: none;
   color: #fff;
 }
+.contenidoInterno__Formulario__selectorTipoProducto,
 .contenidoInterno__Formulario__selectorTipoCliente {
   display: -ms-flexbox;
   display: flex;
@@ -733,10 +734,13 @@ a:hover {
   justify-content: space-around;
   font-weight: 500;
 }
+.contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
+.contenidoInterno__Formulario__selectorTipoProducto input[type="radio"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="radio"] {
   display: none;
 }
+.contenidoInterno__Formulario__selectorTipoProducto :checked + span,
 .contenidoInterno__Formulario__selectorTipoCliente :checked + span {
   color: #7ea10f;
   transition: all 1s;

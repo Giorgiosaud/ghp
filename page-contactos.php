@@ -22,7 +22,16 @@ get_header(); ?>
 			</div>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Formulario">
 				<div class="contenidoInterno__Formulario__Titulo">
-					<h2><?php _e('¿Que Tipo de Cliente Eres?')?></h2>
+					<h4><?php _e('¿Que Tipo de Cliente Eres?')?></h4>
+				</div>
+				<div class="contenidoInterno__Formulario__selectorTipoProducto">
+					<label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="Producto" id="inlineRadio1" value="V"> 	
+						<span>Ventanas</span>
+					</label>
+					<label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="Producto" id="inlineRadio2" value="JV"><span>Jardines Verticales</span>
+					</label>
 				</div>
 				<div class="contenidoInterno__Formulario__selectorTipoCliente">
 					<label class="form-check-inline">
