@@ -132,6 +132,9 @@
   transform: translateY(10px);
   backface-visibility: hidden;
 }
+.dl-menuwrapper .dl-menu:first-child {
+  text-align: right;
+}
 .dl-menuwrapper .dl-menu.dl-animate-out-1 {
   animation: MenuAnimOut1 0.4s;
 }
