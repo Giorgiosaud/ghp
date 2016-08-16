@@ -33,7 +33,7 @@ get_header(); ?>
 						<input class="form-check-input" type="radio" name="Producto" id="inlineRadio2" value="JV"><span>Jardines Verticales</span>
 					</label>
 				</div>
-				<div class="TipoCliente animated">
+				<div class="TipoCliente hidden">
 					<div class="contenidoInterno__Formulario__Titulo">
 						<h4><?php _e('¿Que Tipo de Cliente Eres?')?></h4>
 					</div>
