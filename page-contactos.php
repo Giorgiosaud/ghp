@@ -48,7 +48,18 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="Formularios">
-					FormularioV
+					<div class="Formulario FormularioDCV hidden">
+						<?php the_field('ventanas_dueno_de_casa')?>
+					</div>
+					<div class="Formulario FormularioEV hidden">
+						<?php the_field('ventanas_especialista')?>
+					</div>
+					<div class="Formulario FormularioEJV hidden">
+						<?php the_field('jardines_especialista')?>
+					</div>
+					<div class="Formulario FormularioDCJV hidden">
+						<?php the_field('jardines_dueno_de_casa')?>
+					</div>
 				</div>
 			</div>
 		</div>
