@@ -76,9 +76,6 @@
   list-style: none;
   transform-style: preserve-3d;
 }
-.dl-menuwrapper ul .dl-menu {
-  text-align: left;
-}
 .dl-menuwrapper li {
   position: relative;
 }
@@ -135,6 +132,7 @@
   pointer-events: none;
   transform: translateY(10px);
   backface-visibility: hidden;
+  text-align: left;
 }
 .dl-menuwrapper .dl-menu.dl-animate-out-1 {
   animation: MenuAnimOut1 0.4s;
