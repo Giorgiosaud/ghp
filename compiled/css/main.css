@@ -723,11 +723,11 @@ a:hover {
   background: none;
   color: #fff;
 }
-input[type="checkbox"],
-input[type="radio"] {
+.contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
+.contenidoInterno__Formulario__selectorTipoCliente input[type="radio"] {
   display: none;
 }
-:checked + span {
+.contenidoInterno__Formulario__selectorTipoCliente :checked + span {
   color: #7ea10f;
   transition: all 1s;
 }
