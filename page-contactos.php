@@ -23,10 +23,11 @@ get_header(); ?>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Formulario">
 				<div class="tipoCliente">
 					<label class="form-check-inline">
-					<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> Dueño de Casa
+						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> 	
+						<span>Dueño de Casa</span>
 					</label>
 					<label class="form-check-inline">
-						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"> Especialista
+						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"><span>Especialista</span>
 					</label>
 				</div>
 			</div>

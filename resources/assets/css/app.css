@@ -718,5 +718,17 @@ a:hover {
 .contenedorInterno__Color__Muestra img {
   border: 5px solid #fff;
 }
+.form-control {
+  border-radius: 2px;
+  background: none;
+  color: #fff;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+:checked + span {
+  color: #7ea10f;
+}
 
 /*# sourceMappingURL=app.css.map */
