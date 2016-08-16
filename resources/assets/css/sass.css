@@ -7156,4 +7156,18 @@ a.bg-danger:focus, a.bg-danger:hover {
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/ } }
 
+/**
+ * Animate.scss
+ * https://github.com/benhodgson87/animate.scss/
+ *
+ * Based on Animate.css by Dan Eden (@_dte)
+ * Ported to Sass by Ben Hodgson (@benhodgson)
+ */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.animated.infinite {
+  animation-iteration-count: infinite; }
+
 /*# sourceMappingURL=sass.css.map */
