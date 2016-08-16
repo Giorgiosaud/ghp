@@ -40,6 +40,7 @@
   perspective-origin: 50% 200%;
   float: right;
   z-index: 1000;
+  text-align: right;
 }
 .dl-menuwrapper:first-child {
   margin-right: 100px;
@@ -134,7 +135,6 @@
   pointer-events: none;
   transform: translateY(10px);
   backface-visibility: hidden;
-  text-align: right;
 }
 .dl-menuwrapper .dl-menu.dl-animate-out-1 {
   animation: MenuAnimOut1 0.4s;
