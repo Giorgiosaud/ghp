@@ -6,7 +6,7 @@
             "key": "field_57b00c34aec2a",
             "label": "Slider",
             "name": "slider",
-            "type": "wpp_acf_revolution_slider",
+            "type": "gallery",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -15,12 +15,17 @@
                 "class": "",
                 "id": ""
             },
-            "fields[galeria": {
-                "disable": "",
-                "allow_null": 0,
-                "multiple": 0,
-                "hide_disabled": 0
-            }
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg"
         }
     ],
     "location": [
@@ -40,5 +45,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1471155301
+    "modified": 1471158118
 }
