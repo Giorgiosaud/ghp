@@ -727,8 +727,20 @@ input[type="checkbox"],
 input[type="radio"] {
   display: none;
 }
-:checked + span {
+.contenidoInterno__Formulario__selectorTipoCliente {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #909090;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-weight: 500;
+}
+.contenidoInterno__Formulario__selectorTipoCliente :checked,
+.contenidoInterno__Formulario__selectorTipoCliente + span {
   color: #7ea10f;
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=app.css.map */
