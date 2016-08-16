@@ -1,4 +1,12 @@
 jQuery(document).ready(function($){
+	$.fn.extend({
+		animateCss: function (animationName) {
+			var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+			$(this).addClass('animated ' + animationName).one(animationEnd, function() {
+				$(this).removeClass('animated ' + animationName);
+			});
+		}
+	});
 	$( '#dl-menu' ).dlmenu({
 		animationClasses : { classin : 'dl-animate-in-4', classout : 'dl-animate-out-4' },
 		backLabel:'Atras'
@@ -16,7 +24,7 @@ jQuery(document).ready(function($){
 		}
 	});
 	$('input[name|="Producto"]').change(function() {
-		$('.TipoCliente').addClass('animated fadeInDownBig');
+		$('.TipoCliente').animateCss('fadeInDownBig');
 	});
 
 });
