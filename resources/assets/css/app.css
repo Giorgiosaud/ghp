@@ -752,7 +752,7 @@ a:hover {
   transition: all 1s;
 }
 .customFadeIn {
-  animation-name: fade-in-down;
+  animation-name: fade-in-up;
 }
 .TipoCliente {
   overflow: hidden;
