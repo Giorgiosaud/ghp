@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
 			}
 		}
 	});
-	$('input[name|="yesno"]').change(function() {
+	$('input[name|="Producto"]').change(function() {
 		$('.TipoCliente').addClass('animated fadeInDownBig');
 	});
 
