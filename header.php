@@ -27,7 +27,7 @@ ga('send', 'pageview');
 
 <body <?php body_class(); ?>>
 
-<div class="headerInner">
+<div class="headerInner container-fluid">
 	<div class="Logo">
 		<?php the_custom_logo()?>
 	</div>
