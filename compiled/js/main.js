@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
 			}
 		}
 	});
-	function mostrarFormulario(cli,pord){
+	function mostrarFormulario(cli,prod){
 		$('.Formulario:not(.noShow)').addClass('noShow');
 		var clase='Formulario'+cli+prod;
 		console.log(clase);
