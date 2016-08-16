@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
 		}
 	});
 	$('input[name|="Producto"]').change(function() {
-		$('.TipoCliente').animateCss('fade-in-down-big');
+		$('.TipoCliente').animateCss('fade-out-down');
 	});
 
 });
