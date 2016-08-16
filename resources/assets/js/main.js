@@ -15,5 +15,8 @@ jQuery(document).ready(function($){
 			}
 		}
 	});
-	
+	$('input[name|="yesno"]').change(function() {
+		
+	});
+
 });

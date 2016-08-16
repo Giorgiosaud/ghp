@@ -33,17 +33,19 @@ get_header(); ?>
 						<input class="form-check-input" type="radio" name="Producto" id="inlineRadio2" value="JV"><span>Jardines Verticales</span>
 					</label>
 				</div>
-				<div class="contenidoInterno__Formulario__Titulo">
-					<h4><?php _e('¿Que Tipo de Cliente Eres?')?></h4>
-				</div>
-				<div class="contenidoInterno__Formulario__selectorTipoCliente">
-					<label class="form-check-inline">
-						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> 	
-						<span>Dueño de Casa</span>
-					</label>
-					<label class="form-check-inline">
-						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"><span>Especialista</span>
-					</label>
+				<div class="TipoCliente hidden">
+					<div class="contenidoInterno__Formulario__Titulo">
+						<h4><?php _e('¿Que Tipo de Cliente Eres?')?></h4>
+					</div>
+					<div class="contenidoInterno__Formulario__selectorTipoCliente">
+						<label class="form-check-inline">
+							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> 	
+							<span>Dueño de Casa</span>
+						</label>
+						<label class="form-check-inline">
+							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"><span>Especialista</span>
+						</label>
+					</div>
 				</div>
 			</div>
 		</div>
