@@ -33,7 +33,7 @@ jQuery(document).ready(function($){
 		var prod=$('input[name|="Producto"]:checked').val();
 		if($('input[name|="TipoDeCliente"]').is(':checked')) { 
 			var cli=$('input[name|="TipoDeCliente"]:checked').val();
-			mostrarFormulario(cli,pro);
+			mostrarFormulario(cli,prod);
 			console.info("Mostrar Form "+cli+" del prod "+prod); 
 		}
 		$('.TipoCliente').animateCss('customFadeIn');
@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
 	$('input[name|="TipoDeCliente"]').change(function() {
 		var prod=$('input[name|="Producto"]:checked').val();
 		var cli=$('input[name|="TipoDeCliente"]:checked').val();
-		mostrarFormulario(cli,pro);
+		mostrarFormulario(cli,prod);
 		console.info("Mostrar Form "+cli+" del prod "+prod);
 	});
 
