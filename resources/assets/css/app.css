@@ -8,6 +8,9 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+.dl-menu:first-child {
+  text-align: right;
+}
 .headerInner {
   display: -ms-flexbox;
   display: flex;
@@ -131,9 +134,6 @@
   pointer-events: none;
   transform: translateY(10px);
   backface-visibility: hidden;
-}
-.dl-menuwrapper .dl-menu:first-child {
-  text-align: right;
 }
 .dl-menuwrapper .dl-menu.dl-animate-out-1 {
   animation: MenuAnimOut1 0.4s;
