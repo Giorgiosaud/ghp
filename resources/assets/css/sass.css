@@ -7163,6 +7163,17 @@ a.bg-danger:focus, a.bg-danger:hover {
  * Based on Animate.css by Dan Eden (@_dte)
  * Ported to Sass by Ben Hodgson (@benhodgson)
  */
+@keyframes fade-in-down-big {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+.fade-in-down-big {
+  animation-name: "fade-in-down-big"; }
+
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both; }
