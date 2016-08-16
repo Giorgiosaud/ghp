@@ -1,6 +1,3 @@
-.hidden {
-  opacity: 0;
-}
 .noMP {
   margin: 0 !important;
   padding: 0 !important;
@@ -750,7 +747,7 @@ a:hover {
 }
 .customFadeIn {
   animated-name: fade-in-down-big;
-  webkit-animated-name: fade-in-down-big;
+  -webkit-animated-name: fade-in-down-big;
 }
 
 /*# sourceMappingURL=app.css.map */
