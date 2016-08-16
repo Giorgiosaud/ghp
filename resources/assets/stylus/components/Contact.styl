@@ -4,16 +4,17 @@
 	color: white
 input[type="checkbox"], input[type="radio"]
 	display none
+:checked
+	& + span
+		color: $verdePrincipal
+		transition: all 1s
 .contenidoInterno__Formulario__selectorTipoCliente
 	display: flex
 	align-items: center
 	color: #909090
 	justify-content: space-around
 	font-weight: 500
-	:checked
-	& + span
-		color: $verdePrincipal
-		transition: all 1s
+	
 
 
 
