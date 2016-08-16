@@ -39,13 +39,16 @@ get_header(); ?>
 					</div>
 					<div class="contenidoInterno__Formulario__selectorTipoCliente">
 						<label class="form-check-inline">
-							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> 	
+							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio3" value="DC"> 	
 							<span>Dueño de Casa</span>
 						</label>
 						<label class="form-check-inline">
-							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"><span>Especialista</span>
+							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio4" value="E"><span>Especialista</span>
 						</label>
 					</div>
+				</div>
+				<div class="Formularios">
+					FormularioV
 				</div>
 			</div>
 		</div>
