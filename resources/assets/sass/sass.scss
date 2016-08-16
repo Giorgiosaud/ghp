@@ -4,5 +4,6 @@ $enable-flex:true;
 @import 'bootstrap/scss/bootstrap';
 @import 'font-awesome-sass/assets/stylesheets/font-awesome';
 @import 'fancybox-scss/source/jquery.fancybox.scss';
+$enable-prefixes: true;
 $enable-all-modules: true;
 @import 'animate.scss/src/animate';
