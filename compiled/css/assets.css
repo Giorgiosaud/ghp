@@ -7448,7 +7448,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 .fade-in {
   animation-name: "fade-in"; }
 
-@keyframes fadeIn {
+@keyframes fade-in-down {
   0% {
     opacity: 0;
     transform: translate3d(0, -100%, 0); }
@@ -7456,8 +7456,8 @@ a.bg-danger:focus, a.bg-danger:hover {
     opacity: 1;
     transform: none; } }
 
-.fadeIn {
-  animation-name: "fadeIn"; }
+.fade-in-down {
+  animation-name: "fade-in-down"; }
 
 @keyframes fade-in-down-big {
   0% {
