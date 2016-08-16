@@ -1,3 +1,6 @@
+.hidden {
+  opacity: 0;
+}
 .noMP {
   margin: 0 !important;
   padding: 0 !important;
@@ -747,6 +750,9 @@ a:hover {
 }
 .customFadeIn {
   animation-name: fade-in-down-big;
+}
+.TipoCliente {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=app.css.map */
