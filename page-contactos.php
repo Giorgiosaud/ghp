@@ -21,7 +21,14 @@ get_header(); ?>
 				<?php the_content()?>
 			</div>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Formulario">
-
+				<div class="tipoCliente">
+					<label class="form-check-inline">
+					<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio1" value="DC"> Dueño de Casa
+					</label>
+					<label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio2" value="E"> Especialista
+					</label>
+				</div>
 			</div>
 		</div>
 	</div>
