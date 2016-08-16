@@ -24,10 +24,16 @@ jQuery(document).ready(function($){
 			}
 		}
 	});
+	function mostrarFormulario(cli,pord){
+		$('.Formulario:not(.noShow)').addClass('noShow');
+		var clase='Formulario'+cli+prod;
+		console.log(clase);
+	}
 	$('input[name|="Producto"]').change(function() {
 		var prod=$('input[name|="Producto"]:checked').val();
 		if($('input[name|="TipoDeCliente"]').is(':checked')) { 
 			var cli=$('input[name|="TipoDeCliente"]:checked').val();
+			mostrarFormulario(cli,pro);
 			console.info("Mostrar Form "+cli+" del prod "+prod); 
 		}
 		$('.TipoCliente').animateCss('customFadeIn');
@@ -35,6 +41,7 @@ jQuery(document).ready(function($){
 	$('input[name|="TipoDeCliente"]').change(function() {
 		var prod=$('input[name|="Producto"]:checked').val();
 		var cli=$('input[name|="TipoDeCliente"]:checked').val();
+		mostrarFormulario(cli,pro);
 		console.info("Mostrar Form "+cli+" del prod "+prod);
 	});
 

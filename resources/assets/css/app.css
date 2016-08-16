@@ -1,6 +1,9 @@
 .hidden {
   opacity: 0;
 }
+.noShow {
+  display: none;
+}
 .noMP {
   margin: 0 !important;
   padding: 0 !important;
