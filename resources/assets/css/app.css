@@ -750,6 +750,7 @@ a:hover {
 }
 .customFadeIn {
   animated-name: fade-in-down-big;
+  webkit-animated-name: fade-in-down-big;
 }
 
 /*# sourceMappingURL=app.css.map */
