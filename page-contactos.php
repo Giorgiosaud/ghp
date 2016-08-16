@@ -21,11 +21,7 @@ get_header(); ?>
 				<?php the_content()?>
 			</div>
 			<div class="col-xs-12 col-md-6 contenidoInterno__Formulario">
-				<div class="btn-group" role="group" aria-label="Basic example">
-				<button type="button" class="btn btn-secondary">Constructor</button>
-					<button type="button" class="btn btn-secondary">Dueño de Casa</button>
-				</div>
-				
+
 			</div>
 		</div>
 	</div>
