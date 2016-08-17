@@ -12,6 +12,7 @@ class Styles
 	}
 	public function enqueue()
 	{
+		if (is_admin()) return;
 		wp_deregister_script( 'jquery' );
 		wp_register_style('assetsCss',get_template_directory_uri().'/compiled/css/assets.css');
 		wp_enqueue_style('assetsCss');

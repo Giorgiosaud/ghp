@@ -11,18 +11,6 @@
 		<?php endif; ?>
 		<?php wp_head(); ?>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-
-ga('create', '<?php the_field('google_analytics_seguimiento','options')?>', 'auto');
-ga('send', 'pageview');
-
-</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -30,6 +18,12 @@ ga('send', 'pageview');
 <div class="headerInner container-fluid">
 	<div class="Logo">
 		<?php the_custom_logo()?>
+	</div>
+	<div class="boton">
+		<a href="#" class="btn btn-primary btn-ghp">Contáctanos</a>
+	</div>
+	<div class="boton">
+		<a href="tel:+584148979056" class="btn btn-primary btn-ghp">+58(414)8979056</a>
 	</div>
 	<div id="dl-menu" class="dl-menuwrapper">
 		<button class="dl-trigger">Open Menu</button>

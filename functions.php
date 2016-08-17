@@ -70,8 +70,7 @@ if ( ! function_exists( 'zonaproCorpTheme_setup' ) ) :
 		// This theme uses wp_nav_menu() in two locations.
 		register_nav_menus( array(
 			'main-menu' => __( 'Menu Ventanas y Jardines', 'ghp' ),
-			'ventanas' => __( 'Menu Ventanas', 'ghp' ),
-			'jardines' => __( 'Menu Jardines', 'ghp' ),
+			'social-menu' => __( 'Menu Redes Sociales', 'ghp' ),
 		) );
 
 		/*
@@ -184,17 +183,17 @@ if ( ! function_exists( 'zonaproCorpTheme_fonts_url' ) ) :
 		return $fonts_url;
 	}
 endif;
-if(!function_exists('mainMenu')){
-	function mainMenu(){
+if(!function_exists('btMenu')){
+	function btMenu($id){
 		wp_nav_menu( array(
-			'menu'              => 'main-menu',
-			'theme_location'    => 'main-menu',
+			'menu'              => $id,
+			'theme_location'    => $id,
 			'depth'             => 0,
 			'container'         => '',
-			// 'container_class'   => 'nav navbar-nav',
-			// 'container_id'      => 'mainMenu',
+			'container_class'   => 'nav navbar-nav',
+			'container_id'      => $id,
 			'menu_class'        => 'nav navbar-nav pull-sm-right',
-			// 'fallback_cb'       => '\jorgelsaud\WordpressTools\NavWalker::fallback',
+			'fallback_cb'       => '\jorgelsaud\WordpressTools\NavWalker::fallback',
 			'walker'            => new \jorgelsaud\WordpressTools\NavWalker()
 		)
 	);

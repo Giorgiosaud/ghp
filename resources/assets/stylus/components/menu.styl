@@ -6,12 +6,22 @@
 	position absolute
 	top 0
 	z-index 1000
+.btn-ghp
+	color: #fff
+	background-color: $verdePrincipal
+	border-color: darken($verdePrincipal,10)
+	&:hover,&:focus,&:active
+		background-color: darken($verdePrincipal,10)
+		border-color: darken($verdePrincipal,20)
+@media (min-width: 768px)
+	.dl-menuwrapper
+		text-align right !important
 @media (max-width: 768px)
 	.headerInner
 		flex-direction column
 		justify-content center
 	.dl-menuwrapper
-		text-align center
+		text-align center !important
 .dl-menuwrapper
 	width: 100%
 	max-width: 300px
@@ -23,8 +33,6 @@
 	perspective-origin: 50% 200%
 	float: right
 	z-index: 1000
-	text-align right
-	
 	&:first-child
 		margin-right: 100px
 	button

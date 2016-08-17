@@ -8,6 +8,10 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+a:hover,
+a:focus {
+  text-decoration: none;
+}
 .headerInner {
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +24,22 @@
   top: 0;
   z-index: 1000;
 }
+.btn-ghp {
+  color: #fff;
+  background-color: #7ea10f;
+  border-color: #59720b;
+}
+.btn-ghp:hover,
+.btn-ghp:focus,
+.btn-ghp:active {
+  background-color: #59720b;
+  border-color: #354406;
+}
+@media (min-width: 768px) {
+  .dl-menuwrapper {
+    text-align: right !important;
+  }
+}
 @media (max-width: 768px) {
   .headerInner {
     -ms-flex-direction: column;
@@ -28,7 +48,7 @@
     justify-content: center;
   }
   .dl-menuwrapper {
-    text-align: center;
+    text-align: center !important;
   }
 }
 .dl-menuwrapper {
@@ -40,7 +60,6 @@
   perspective-origin: 50% 200%;
   float: right;
   z-index: 1000;
-  text-align: right;
 }
 .dl-menuwrapper:first-child {
   margin-right: 100px;
