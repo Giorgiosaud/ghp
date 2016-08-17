@@ -20,10 +20,10 @@
 		<?php the_custom_logo()?>
 	</div>
 	<div class="boton">
-		<a href="#" class="btn btn-primary btn-ghp">Contáctanos</a>
+		<a href="#" class="btn btn-primary btn-ghp btn-sm">Contáctanos</a>
 	</div>
 	<div class="boton">
-		<a href="tel:+584148979056" class="btn btn-primary btn-ghp">+58(414)8979056</a>
+		<a href="tel:+584148979056" class="btn btn-primary btn-ghp btn-sm">+58(414)8979056</a>
 	</div>
 	<div id="dl-menu" class="dl-menuwrapper">
 		<button class="dl-trigger">Open Menu</button>
