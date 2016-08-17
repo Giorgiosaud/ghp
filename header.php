@@ -20,10 +20,10 @@
 		<?php the_custom_logo()?>
 	</div>
 	<div class="boton">
-		<a href="#" class="btn btn-primary btn-ghp btn-sm">Contáctanos</a>
+		<a href="<?php the_field('link_boton_contacto','option')?>" class="btn btn-primary btn-ghp btn-sm">Contáctanos</a>
 	</div>
 	<div class="boton">
-		<a href="tel:+584148979056" class="btn btn-primary btn-ghp btn-sm">+58(414)8979056</a>
+		<a href="tel:<?php the_field('telefono_sin_formato','option')?>" class="btn btn-primary btn-ghp btn-sm"><?php the_field('telefono_con_formato','option')?></a>
 	</div>
 	<div id="dl-menu" class="dl-menuwrapper">
 		<button class="dl-trigger">Open Menu</button>
