@@ -20,6 +20,14 @@ a:focus {
 .boton {
   margin-bottom: 1rem;
 }
+.MenuRSFooter {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2rem;
+  font-size: 1.3rem;
+  z-index: 1000;
+  color: #fff;
+}
 .headerInner {
   display: -ms-flexbox;
   display: flex;
