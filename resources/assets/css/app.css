@@ -12,6 +12,11 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
+.btn-ghp {
+  color: #fff;
+  background-color: #7ea10f;
+  border-color: ligthen(#7ea10f, 10);
+}
 .headerInner {
   display: -ms-flexbox;
   display: flex;
