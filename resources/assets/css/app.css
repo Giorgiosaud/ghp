@@ -794,5 +794,26 @@ a:hover {
 .TipoCliente {
   overflow: hidden;
 }
+.BotonesContactos {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.BotonContacto {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1rem;
+  text-align: center;
+  font-size: smaller;
+}
 
 /*# sourceMappingURL=app.css.map */
