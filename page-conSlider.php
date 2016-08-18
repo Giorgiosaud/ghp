@@ -31,11 +31,6 @@ get_header(); ?>
 
 
 					<div id="Galeria" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<?php foreach( $images as $index=>$image ):?>
-								<li data-target="#Galeria" data-slide-to="<?= $index?>" class="<?php if($index==0){echo 'active';}?>"></li>
-							<?php endforeach; ?>
-						</ol>
 						<div class="carousel-inner" role="listbox">
 							<?php foreach( $images as $index=>$image ):?>
 							<div class="carousel-item <?php if($index==0){echo 'active';}?>">
