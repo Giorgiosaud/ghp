@@ -734,6 +734,9 @@ a:hover {
   border: solid 1px;
   padding: 0.5em;
 }
+.Ventana {
+  margin-bottom: 2rem;
+}
 @media (max-width: 768px) {
   .backgroundPicture {
     padding: 18em 0 5em 0;

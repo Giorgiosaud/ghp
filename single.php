@@ -18,7 +18,7 @@ get_header(); ?>
 	$fotoSiguiente=get_field('imagen_interna',$next_post);
 	endif;?>
 	<div class="row noMP">
-		<div class="col-xs-12 col-md-5 noMP">
+		<div class="Ventana col-xs-12 col-md-5 noMP">
 			<div class="row">
 				<div class="TituloInterno col-xs-11">
 					<?= $tituloActual ?>
@@ -35,7 +35,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-5 col-md-push-2 noMP">
+		<div class="Ventana col-xs-12 col-md-5 col-md-push-2 noMP">
 			<?php if ( !empty( $next_post ) ):?>
 				<div class="row noMP">
 					<div class="TituloInterno col-xs-11 col-md-push-1">
