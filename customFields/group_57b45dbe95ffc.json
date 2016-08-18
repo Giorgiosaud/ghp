@@ -78,6 +78,22 @@
             "maxlength": ""
         },
         {
+            "key": "field_57b467ee5fbb0",
+            "label": "Direccion Link",
+            "name": "direccion_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
             "key": "field_57b45e4a3c898",
             "label": "Texto Footer",
             "name": "texto_footer",
@@ -94,14 +110,33 @@
             "tabs": "all",
             "toolbar": "full",
             "media_upload": 1
+        },
+        {
+            "key": "field_57b463e639ecd",
+            "label": "Link Boton Contacto",
+            "name": "link_boton_contacto",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "options_page",
                 "operator": "==",
-                "value": "post"
+                "value": "acf-options-ajustes-generales"
             }
         ]
     ],
@@ -113,5 +148,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1471438417
+    "modified": 1471440892
 }
