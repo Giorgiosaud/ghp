@@ -22,8 +22,5 @@
 	<div class="boton">
 		<a href="tel:<?php the_field('telefono_sin_formato','option')?>" class="btn btn-primary btn-ghp btn-sm"><?php the_field('telefono_con_formato','option')?></a>
 	</div>
-	<div id="dl-menu" class="dl-menuwrapper">
-		<button class="dl-trigger">Open Menu</button>
-	</div><!-- /dl-menuwrapper -->
 
 </div>
