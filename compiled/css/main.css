@@ -682,13 +682,14 @@ a:hover {
 }
 .backgroundPicture {
   min-height: 100vh;
-  padding: 10em 0 4em 0;
+  padding: 10em 0 5em 0;
 }
 .contenidoInterno {
   background: rgba(0,0,0,0.6);
   margin-left: 0;
   padding: 1rem 0 1rem 0;
   color: #fff;
+  min-height: 50vh;
 }
 .TituloInterno {
   background: #7ea10f;
@@ -735,7 +736,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   .backgroundPicture {
-    padding: 18em 0 4em 0;
+    padding: 18em 0 5em 0;
   }
 }
 .contenidoInterno__Colores {
