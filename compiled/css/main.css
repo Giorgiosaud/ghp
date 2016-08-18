@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .hidden {
   opacity: 0;
 }
@@ -679,7 +682,7 @@ a:hover {
 }
 .backgroundPicture {
   min-height: 100vh;
-  padding: 10em 0 3em 0;
+  padding: 10em 0 4em 0;
 }
 .contenidoInterno {
   background: rgba(0,0,0,0.6);
@@ -728,6 +731,11 @@ a:hover {
   color: #fff;
   border: solid 1px;
   padding: 0.5em;
+}
+@media (max-width: 768px) {
+  .backgroundPicture {
+    padding: 18em 0 4em 0;
+  }
 }
 .contenidoInterno__Colores {
   min-height: 50vh;
