@@ -35,9 +35,8 @@ get_header(); ?>
 							<?php foreach( $images as $index=>$image ):?>
 							<div class="carousel-item <?php if($index==0){echo 'active';}?>">
 								<a href="<?php echo $image['sizes']['large']; ?>" rel="gallery" class="fancybox" title="<?php echo $image['caption']; ?>">
-								<img src="<?php echo $image['sizes']['imagen_interna']; ?>" class="img-fluid" alt="<?php echo $image['alt']; ?>	">
+								<img src="<?php echo $image['sizes']['large']; ?>" class="img-fluid" alt="<?php echo $image['alt']; ?>	">
 								</a>
-								<?php var_dump($image['sizes'])?>
 							</div>
 							<?php endforeach; ?>
 
