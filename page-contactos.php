@@ -48,37 +48,42 @@ get_header(); ?>
 						<input class="form-check-input" type="radio" name="Producto" id="inlineRadio2" value="JV"><span>Muros Verticales</span>
 					</label>
 				</div>
-				<div class="TipoCliente hidden">
-					<div class="contenidoInterno__Formulario__Titulo">
-						<h4><?php _e('¿Que tipo de cliente eres?')?></h4>
-					</div>
-					<div class="contenidoInterno__Formulario__selectorTipoCliente">
-						<label class="form-check-inline">
-							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio3" value="DC"> 	
-							<span>Dueño de casa</span>
-						</label>
-						<label class="form-check-inline">
-							<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio4" value="E"><span>Especialista</span>
-						</label>
-					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-8 contenidoInterno__Formulario noMP">
+				<div class="TipoCliente TituloInterno hidden">
+					<?php _e('¿Que tipo de cliente eres?')?>
 				</div>
-				<div class="Formularios">
-					<div class="Formulario FormularioDCV hidden noShow">
-						<?php the_field('ventanas_dueno_de_casa')?>
-					</div>
-					<div class="Formulario FormularioEV hidden noShow ">
-						<?php the_field('ventanas_especialista')?>
-					</div>
-					<div class="Formulario FormularioEJV hidden noShow">
-						<?php the_field('jardines_especialista')?>
-					</div>
-					<div class="Formulario FormularioDCJV hidden noShow">
-						<?php the_field('jardines_dueno_de_casa')?>
-					</div>
+			</div>
+			<div class="col-xs-12 contenidoInterno__Formulario TipoCliente hidden">
+				<div class="contenidoInterno__Formulario__selectorTipoCliente">
+					<label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio3" value="DC"> 	
+						<span>Dueño de casa</span>
+					</label>
+					<label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="TipoDeCliente" id="inlineRadio4" value="E"><span>Especialista</span>
+					</label>
+				</div>
+			</div>
+			<div class="Formularios">
+				<div class="Formulario FormularioDCV hidden noShow">
+					<?php the_field('ventanas_dueno_de_casa')?>
+				</div>
+				<div class="Formulario FormularioEV hidden noShow ">
+					<?php the_field('ventanas_especialista')?>
+				</div>
+				<div class="Formulario FormularioEJV hidden noShow">
+					<?php the_field('jardines_especialista')?>
+				</div>
+				<div class="Formulario FormularioDCJV hidden noShow">
+					<?php the_field('jardines_dueno_de_casa')?>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 </article>
 <?php endwhile; ?>
 <?php else: ?>
