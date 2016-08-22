@@ -17,10 +17,10 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-md-6 contenidoInterno__Contenido">
+			<div class="col-xs-12 col-md-4 contenidoInterno__Contenido">
 				<?php the_content()?>
 			</div>
-			<div class="col-xs-12 col-md-6 contenidoInterno__Foto">
+			<div class="col-xs-12 col-md-8 contenidoInterno__Foto">
 				<div class="contenidoInterno__Galeria">
 					<?php 
 
