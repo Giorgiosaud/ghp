@@ -12,8 +12,10 @@ get_header(); ?>
 <article class="container contenidoInterno">
 	<div class="row">
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-			<div class="TituloInterno col-xs-12 col-md-5">
-				<?php the_title()?>
+			<div class="col-xs-12 col-md-5 noMP">
+				<div class="TituloInterno">
+					<?php the_title()?>
+				</div>
 			</div>
 			<div class="BotonesContactos BotonesContactos col-xs-12 col-md-5 col-md-push-1">
 				<div class="BotonContacto BotonesContactos__Email">
