@@ -809,6 +809,7 @@ a:hover {
 .contenidoInterno__Formulario__selectorTipoProducto :checked + span,
 .contenidoInterno__Formulario__selectorTipoCliente :checked + span {
   color: #7ea10f;
+  background: #fff;
   transition: all 1s;
 }
 .customFadeIn {
