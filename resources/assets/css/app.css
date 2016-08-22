@@ -792,6 +792,13 @@ a:hover {
 .contenidoInterno__Formulario__selectorTipoProducto label,
 .contenidoInterno__Formulario__selectorTipoCliente label {
   border: 1px solid #fff;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+.contenidoInterno__Formulario__selectorTipoProducto label:hover,
+.contenidoInterno__Formulario__selectorTipoCliente label:hover {
+  background: #fff;
+  color: #7ea10f;
 }
 .contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
