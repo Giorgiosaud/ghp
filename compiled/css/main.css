@@ -697,7 +697,6 @@ a:hover {
   color: #fff;
   padding-left: 2rem;
   margin-bottom: 1.5em;
-  height: 2rem;
 }
 .row {
   width: 100%;
@@ -788,23 +787,22 @@ a:hover {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 500;
-}
-.contenidoInterno__Formulario__selectorTipoProducto label,
-.contenidoInterno__Formulario__selectorTipoCliente label {
-  border: 1px solid #fff;
-  padding: 0.5em 1em;
-  border-radius: 6px;
-}
-.contenidoInterno__Formulario__selectorTipoProducto label:hover,
-.contenidoInterno__Formulario__selectorTipoCliente label:hover {
-  background: #fff;
-  color: #7ea10f;
+  margin: 2rem 0;
 }
 .contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoProducto input[type="radio"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="radio"] {
   display: none;
+}
+.contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"] + span,
+.contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"] + span,
+.contenidoInterno__Formulario__selectorTipoProducto input[type="radio"] + span,
+.contenidoInterno__Formulario__selectorTipoCliente input[type="radio"] + span {
+  border: #fff 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
 }
 .contenidoInterno__Formulario__selectorTipoProducto :checked + span,
 .contenidoInterno__Formulario__selectorTipoCliente :checked + span {
