@@ -738,7 +738,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   .backgroundPicture {
-    padding: 18em 0 5em 0;
+    padding: 17em 0 5em 0;
   }
 }
 .contenidoInterno__Colores {
@@ -788,6 +788,10 @@ a:hover {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 500;
+}
+.contenidoInterno__Formulario__selectorTipoProducto label,
+.contenidoInterno__Formulario__selectorTipoCliente label {
+  border: 1px solid #fff;
 }
 .contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
