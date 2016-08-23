@@ -777,6 +777,9 @@ a:hover {
   background: none;
   color: #fff;
 }
+.contenidoInterno__Formulario .TituloInterno {
+  margin-bottom: 1rem;
+}
 .contenidoInterno__Formulario__selectorTipoProducto,
 .contenidoInterno__Formulario__selectorTipoCliente {
   display: -ms-flexbox;
@@ -787,7 +790,7 @@ a:hover {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 500;
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 }
 .contenidoInterno__Formulario__selectorTipoProducto input[type="checkbox"],
 .contenidoInterno__Formulario__selectorTipoCliente input[type="checkbox"],
@@ -803,12 +806,17 @@ a:hover {
   border-radius: 3px;
   cursor: pointer;
   padding: 0.5rem 1rem;
+  display: -ms-flexbox;
+  display: flex;
 }
 .contenidoInterno__Formulario__selectorTipoProducto :checked + span,
 .contenidoInterno__Formulario__selectorTipoCliente :checked + span {
   color: #7ea10f;
   background: #fff;
   transition: all 1s;
+}
+select {
+  height: 2.3em;
 }
 .customFadeIn {
   animation-name: fade-in-up;
