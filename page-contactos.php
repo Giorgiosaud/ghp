@@ -69,7 +69,7 @@ get_header(); ?>
 					</label>
 				</div>
 			</div>
-			<div class="Formularios">
+			<div class="Formularios col-xs-12">
 				<div class="Formulario FormularioDCV hidden noShow">
 					<?php the_field('ventanas_dueno_de_casa')?>
 				</div>
