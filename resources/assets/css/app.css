@@ -821,8 +821,10 @@ a:hover {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .BotonContacto {
   display: -ms-flexbox;
