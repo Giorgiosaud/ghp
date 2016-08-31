@@ -19,9 +19,11 @@ class Styles
 		wp_register_style('socicons','https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css',['assetsCss']);
 		wp_enqueue_style('socicons');
 		wp_register_script('jquery',get_template_directory_uri().'/compiled/js/assets.js');
-		wp_localize_script( 'jquery', 'Zonapro', array( 
+		wp_localize_script( 'mainJs', 'Zonapro', array( 
 			'url' => admin_url( 'admin-ajax.php' ), 
 			'nonce' => wp_create_nonce( 'myajax-post-comment-nonce' ),
+			'latitud' => get_field('latitud','option'), 
+			'longitud' => get_field('longitud','option')
 			  ) );
 		wp_enqueue_script('jquery');
 		wp_register_script('mainJs',get_template_directory_uri().'/compiled/js/main.js',array('jquery'));

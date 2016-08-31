@@ -37,7 +37,11 @@ get_header(); ?>
 					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
-								...
+								<div class="row">
+									<div class="col-xs-12">
+									<div id="map"></div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -100,6 +104,20 @@ get_header(); ?>
 </div>
 </article>
 <?php endwhile; ?>
+<script type="text/javascript">
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+    </script>
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap">
+    </script>
 <?php else: ?>
 <article class="container contenidoInterno">
 	<div class="row">
