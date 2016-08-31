@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
 		backLabel:'Atras'
 	});
 	$('.fancybox').fancybox({
+		padding:0,
 		helpers:  {
 			title : {
 				type : 'inside'
