@@ -14,7 +14,7 @@ get_header(); ?>
 				<?php the_title()?>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row contenidoCentrado">
 			<div class="col-xs-12 col-md-4 contenidoInterno__Contenido">
 				<?php the_content()?>
 			</div>
