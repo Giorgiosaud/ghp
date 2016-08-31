@@ -690,6 +690,10 @@ a:hover {
   color: #fff;
   min-height: 50vh;
 }
+.contenidoCentrado {
+  -ms-flex-align: center;
+  align-items: center;
+}
 .TituloInterno {
   background: #7ea10f;
   font-size: 1.3em;
