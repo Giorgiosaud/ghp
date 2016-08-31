@@ -26,6 +26,7 @@ class Styles
 			'nonce' => wp_create_nonce( 'myajax-post-comment-nonce' ),
 			'latitud' => get_field('latitud','option'), 
 			'longitud' => get_field('longitud','option')
+			'zoom' => get_field('zoom','option')
 			  ) );
 		wp_enqueue_script('mainJs');
 		wp_register_style('mainCss',get_template_directory_uri().'/compiled/css/main.css',['assetsCss']);
