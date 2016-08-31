@@ -29,10 +29,17 @@ get_header(); ?>
 						<div class="Boton_Icono BotonesContactos__Telefono__Icono"><img src="<?php echo get_template_directory_uri();?>/img/telefono.png" class="img-fluid" alt="Telefono"></div>
 						<div class="BotonContacto_Contenido BotonesContactos__Telefono__Correo"><a href="tel<?php the_field('telefono_sin_formato','option')?>"><?php the_field('telefono_con_formato','option')?></a></div>
 					</div>
-					<div type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="BotonContacto BotonesContactos__Direccion">
-						
+					<div data-toggle="modal" data-target=".bd-example-modal-lg" class="BotonContacto BotonesContactos__Direccion">
+
 						<div  class="Boton_Icono BotonesContactos__Direccion__Icono"><img src="<?php echo get_template_directory_uri();?>/img/direccion.png" class="img-fluid" alt="Direccion"></div>
 						<div class="BotonContacto_Contenido BotonesContactos__Direccion__Correo"><?php the_field('direccion','option')?></div>
+					</div>
+					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								...
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -115,13 +122,6 @@ get_header(); ?>
 </article>
 </div>
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-     <div id="map"></div>
-    </div>
-  </div>
-</div>
 
 <?php endif; ?>
 <?php get_footer(); ?>
