@@ -20,7 +20,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row">
-				<div class="BotonesContactos BotonesContactos col-xs-12 col-md-7">
+				<div class="BotonesContactos BotonesContactos col-xs-12">
 					<div class="BotonContacto BotonesContactos__Email">
 						<div class="Boton_Icono BotonesContactos__Email__Icono"><img src="<?php echo get_template_directory_uri();?>/img/email.png" class="img-fluid" alt="email"></div>
 						<div class="BotonContacto_Contenido BotonesContactos__Email__Correo"><a href="<?php the_field('email','option')?>"><?php the_field('email','option')?></a></div>
