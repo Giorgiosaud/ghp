@@ -37,7 +37,7 @@ get_header(); ?>
 					<div class="modal fade bd-example-modal-lg" id="mapa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<div id="map" style="margin:auto;width:600px;height:500px"></div>
+								<div id="map" style="margin:auto;min-height: 80vh;width:100%;height:100%"></div>
 							</div>
 						</div>
 					</div>
