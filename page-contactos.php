@@ -109,7 +109,7 @@ get_header(); ?>
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: Zonapro.latitud, lng: Zonapro.longitud},
+    center: {lat: parseFloat(Zonapro.latitud), lng: parseFloat(Zonapro.longitud)},
     zoom: 8
   });
 }
