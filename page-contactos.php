@@ -39,6 +39,7 @@ get_header(); ?>
 							<div class="modal-content">
 								<div class="row">
 									<div class="col-xs-12">
+										<div id="map" style="width:500px;height:500px"></div>
 									</div>
 								</div>
 							</div>
@@ -46,9 +47,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div id="map" style="width:500px;height:500px"></div>
 		</div>
 		<div class="row">
 
