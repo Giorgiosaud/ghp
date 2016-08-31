@@ -109,14 +109,14 @@ get_header(); ?>
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
+    center: {lat: Zonapro.latitud, lng: Zonapro.longitud},
     zoom: 8
   });
 }
 
     </script>
 <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap()">
     </script>
 <?php else: ?>
 <article class="container contenidoInterno">
