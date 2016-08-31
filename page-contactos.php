@@ -106,18 +106,19 @@ get_header(); ?>
 <?php endwhile; ?>
 <script type="text/javascript">
 
-var map;
+	var map;
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: parseFloat(Zonapro.latitud), lng: parseFloat(Zonapro.longitud)},
-    zoom: parseInt(Zonapro.zoom)
-  });
+	map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: parseFloat(Zonapro.latitud), lng: parseFloat(Zonapro.longitud)},
+		zoom: parseInt(Zonapro.zoom)
+	});
+	marker.setMap(map);
 }
 
-    </script>
+</script>
 <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap">
-    </script>
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap">
+</script>
 <?php else: ?>
 <article class="container contenidoInterno">
 	<div class="row">
