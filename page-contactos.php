@@ -39,7 +39,7 @@ get_header(); ?>
 							<div class="modal-content">
 								<div class="row">
 									<div class="col-xs-12">
-									<div id="map"></div>
+									<div id="map" style="width: 500px; height: 400px"></div>
 									</div>
 								</div>
 							</div>
@@ -109,7 +109,7 @@ get_header(); ?>
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
+    center: {lat: Zonapro.latitud, lng: Zonapro.longitud},
     zoom: 8
   });
 }
