@@ -34,6 +34,11 @@ jQuery(document).ready(function($){
 	 $('#mapa').on('shown.bs.modal', function(e) {
 		var element = $(e.relatedTarget);
 		 initMap();
+		$(this).find('.modal-body').css({
+			width:'auto', //probably not needed
+			height:'auto', //probably not needed 
+			'max-height':'100%'
+		});
 	    });
 	$('input[name|="Producto"]').change(function() {
 		var prod=$('input[name|="Producto"]:checked').val();
