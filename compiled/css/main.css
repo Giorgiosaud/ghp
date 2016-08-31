@@ -790,7 +790,7 @@ a:hover {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  color: #909090;
+  color: #fff;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   font-weight: 500;
