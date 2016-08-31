@@ -10,13 +10,13 @@ get_header('sinMenu'); ?>
 	style="background:url(<?= get_template_directory_uri();?>/img/bg-image-inner.jpg)">
 <?php endif ?>
 <article class="container contenidoInterno">
-	<div class="row contenidoCentrado">
+	<div class="row">
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 			<div class="TituloInterno col-xs-12 col-md-5">
 				<?php the_title()?>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row contenidoCentrado">
 			<div class="col-xs-12 col-md-4 contenidoInterno__Contenido">
 				<?php the_content()?>
 			</div>
