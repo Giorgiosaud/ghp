@@ -112,6 +112,9 @@ function initMap() {
 		center: {lat: parseFloat(Zonapro.latitud), lng: parseFloat(Zonapro.longitud)},
 		zoom: parseInt(Zonapro.zoom)
 	});
+	var marker = new google.maps.Marker({
+	    position: new google.maps.LatLng( parseFloat(Zonapro.latitud),  parseFloat(Zonapro.longitud))
+  });
 	marker.setMap(map);
 }
 
