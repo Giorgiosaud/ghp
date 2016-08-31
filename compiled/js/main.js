@@ -31,6 +31,10 @@ jQuery(document).ready(function($){
 		$(clase).removeClass('noShow').animateCss('customFadeIn');
 		console.log(clase);
 	}
+	 $('#mapa').on('shown.bs.modal', function(e) {
+		var element = $(e.relatedTarget);
+		 initMap();
+	    });
 	$('input[name|="Producto"]').change(function() {
 		var prod=$('input[name|="Producto"]:checked').val();
 		if($('input[name|="TipoDeCliente"]').is(':checked')) { 
