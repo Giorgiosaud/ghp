@@ -25,7 +25,7 @@ class Styles
 			'url' => admin_url( 'admin-ajax.php' ), 
 			'nonce' => wp_create_nonce( 'myajax-post-comment-nonce' ),
 			'latitud' => get_field('latitud','option'), 
-			'longitud' => get_field('longitud','option')
+			'longitud' => get_field('longitud','option'),
 			'zoom' => get_field('zoom','option')
 			  ) );
 		wp_enqueue_script('mainJs');
