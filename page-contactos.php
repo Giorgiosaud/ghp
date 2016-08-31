@@ -116,7 +116,7 @@ function initMap() {
 
     </script>
 <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap()">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ7k9abwQ3PZiL5X_oM3qPEKa5uPgQpWg&callback=initMap">
     </script>
 <?php else: ?>
 <article class="container contenidoInterno">
